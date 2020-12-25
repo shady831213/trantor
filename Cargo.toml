@@ -1,0 +1,53 @@
+[package]
+name = "trantor"
+version = "0.1.0"
+authors = ["shady831213 <shady831213@126.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+terminus-spaceport={git = "https://github.com/shady831213/terminus_spaceport"}
+terminus-vault={git = "https://github.com/shady831213/terminus_vault"}
+linkme = "0.1"
+xmas-elf = "0.7.0"
+
+[[example]]
+name = "basic_tests"
+path = "top_tests/basic_tests.rs"
+
+[[example]]
+name = "c_ext_tests"
+path = "top_tests/c_ext_tests.rs"
+
+[[example]]
+name = "d_ext_tests"
+path = "top_tests/d_ext_tests.rs"
+
+[[example]]
+name = "f_ext_tests"
+path = "top_tests/f_ext_tests.rs"
+
+[[example]]
+name = "m_ext_tests"
+path = "top_tests/m_ext_tests.rs"
+
+[[example]]
+name = "mmu_tests"
+path = "top_tests/mmu_tests.rs"
+
+[[example]]
+name = "multi_core_tests"
+path = "top_tests/c_ext_tests.rs"
+
+[[example]]
+name = "priv_m_tests"
+path = "top_tests/priv_m_tests.rs"
+
+[[example]]
+name = "priv_s_tests"
+path = "top_tests/priv_s_tests.rs"
+
+[[example]]
+name = "riscv_tests"
+path = "top_tests/riscv_tests.rs"
+
