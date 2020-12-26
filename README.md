@@ -53,3 +53,5 @@
 - 你需要添加一些必要的外设，[terminus_transport](https://github.com/shady831213/terminus_spaceport)可以帮助到你，你也可以借助[terminus_transport](https://github.com/shady831213/terminus_spaceport)定义自己的外设
 - 你可能需要利用到elf和dts的一些处理，[这里](https://github.com/shady831213/trantor/tree/master/src/system)可能可以帮助到你
 - 在此步骤你可能会发现之前测试没有覆盖的bug，为processor提供一些简单的trace和debug功能会很很有帮助
+
+## Enjoy ^_^
