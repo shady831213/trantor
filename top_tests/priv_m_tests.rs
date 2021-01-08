@@ -23,5 +23,3 @@ fn main() {
     runner.test(XLen::X32, "rv32mi-p-scall");
     runner.test(XLen::X32, "rv32mi-p-shamt");
 }
-
-

@@ -27,5 +27,3 @@ fn main() {
     runner.test(XLen::X32, "rv32uf-p-move");
     runner.test(XLen::X32, "rv32uf-p-recoding");
 }
-
-

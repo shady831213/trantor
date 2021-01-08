@@ -26,5 +26,3 @@ fn main() {
     runner.test(XLen::X32, "rv32um-p-rem");
     runner.test(XLen::X32, "rv32um-p-remu");
 }
-
-

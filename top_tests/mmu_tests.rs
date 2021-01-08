@@ -18,5 +18,3 @@ fn main() {
     runner.test(XLen::X64, "rv64ua-v-lrsc");
     runner.test(XLen::X32, "rv32ua-v-lrsc");
 }
-
-

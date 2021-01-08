@@ -17,5 +17,3 @@ fn main() {
     runner.test(XLen::X32, "rv32si-p-scall");
     runner.test(XLen::X32, "rv32si-p-wfi");
 }
-
-

@@ -27,5 +27,3 @@ fn main() {
     runner.test(XLen::X32, "rv32ud-p-ldst");
     runner.test(XLen::X32, "rv32ud-p-recoding");
 }
-
-

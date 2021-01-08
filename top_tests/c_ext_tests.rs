@@ -7,5 +7,3 @@ fn main() {
 
     runner.test(XLen::X32, "rv32uc-p-rvc");
 }
-
-

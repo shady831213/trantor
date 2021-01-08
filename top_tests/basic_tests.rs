@@ -93,5 +93,3 @@ fn main() {
     runner.test(XLen::X32, "rv32ui-p-xor");
     runner.test(XLen::X32, "rv32ui-p-xori");
 }
-
-
